@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "taichi_course01_final"
+version = "0.1.0"
+description = ""
+authors = ["SIGUSR97 <jeffzo01@qq.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.9.7"
+taichi = "^0.8.8"
+numpy = "^1.22.0"
+PyWavefront = "^1.3.3"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+autopep8 = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+# run = "taichi_course01_final.Main:main"
+test = "taichi_course01_final.Main:test"

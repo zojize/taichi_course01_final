@@ -1,0 +1,12 @@
+[flake8]
+ignore = 
+  E501, ; line to long
+  F401, ; unused import
+  E741, ; ambiguous variable names
+  W503, ; line break before operator
+  F403, ; from module import *
+  ; C901, ; too complex
+max-complexity = 25
+per-file-ignores =
+  ; this doesn's seem to work
+  taichi_course01_final/Main.py: E402

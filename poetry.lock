@@ -1,0 +1,220 @@
+[[package]]
+name = "astor"
+version = "0.8.1"
+description = "Read/rewrite/write Python ASTs"
+category = "main"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
+
+[[package]]
+name = "autopep8"
+version = "1.6.0"
+description = "A tool that automatically formats Python code to conform to the PEP 8 style guide"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+pycodestyle = ">=2.8.0"
+toml = "*"
+
+[[package]]
+name = "colorama"
+version = "0.4.4"
+description = "Cross-platform colored terminal text."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "dill"
+version = "0.3.4"
+description = "serialize all of python"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*"
+
+[package.extras]
+graph = ["objgraph (>=1.7.2)"]
+
+[[package]]
+name = "flake8"
+version = "4.0.1"
+description = "the modular source code checker: pep8 pyflakes and co"
+category = "dev"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+mccabe = ">=0.6.0,<0.7.0"
+pycodestyle = ">=2.8.0,<2.9.0"
+pyflakes = ">=2.4.0,<2.5.0"
+
+[[package]]
+name = "mccabe"
+version = "0.6.1"
+description = "McCabe checker, plugin for flake8"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "numpy"
+version = "1.22.0"
+description = "NumPy is the fundamental package for array computing with Python."
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
+name = "pycodestyle"
+version = "2.8.0"
+description = "Python style guide checker"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "pyflakes"
+version = "2.4.0"
+description = "passive checker of Python programs"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[[package]]
+name = "pywavefront"
+version = "1.3.3"
+description = "Python library for importing Wavefront .obj files"
+category = "main"
+optional = false
+python-versions = ">=3.4"
+
+[package.extras]
+visualization = ["pyglet"]
+
+[[package]]
+name = "sourceinspect"
+version = "0.0.4"
+description = "A unified inspector for retriving source from Python objects"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+dill = "*"
+
+[[package]]
+name = "taichi"
+version = "0.8.8"
+description = "The Taichi Programming Language"
+category = "main"
+optional = false
+python-versions = ">=3.6,<3.10"
+
+[package.dependencies]
+astor = "*"
+colorama = "*"
+numpy = "*"
+sourceinspect = ">=0.0.4"
+
+[[package]]
+name = "toml"
+version = "0.10.2"
+description = "Python Library for Tom's Obvious, Minimal Language"
+category = "dev"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "3.9.7"
+content-hash = "10d37182783ab6b9b668c6d72cedf031e0f399f0026da22f7a88248f8b2dcc26"
+
+[metadata.files]
+astor = [
+    {file = "astor-0.8.1-py2.py3-none-any.whl", hash = "sha256:070a54e890cefb5b3739d19f30f5a5ec840ffc9c50ffa7d23cc9fc1a38ebbfc5"},
+    {file = "astor-0.8.1.tar.gz", hash = "sha256:6a6effda93f4e1ce9f618779b2dd1d9d84f1e32812c23a29b3fff6fd7f63fa5e"},
+]
+autopep8 = [
+    {file = "autopep8-1.6.0-py2.py3-none-any.whl", hash = "sha256:ed77137193bbac52d029a52c59bec1b0629b5a186c495f1eb21b126ac466083f"},
+    {file = "autopep8-1.6.0.tar.gz", hash = "sha256:44f0932855039d2c15c4510d6df665e4730f2b8582704fa48f9c55bd3e17d979"},
+]
+colorama = [
+    {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
+    {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
+]
+dill = [
+    {file = "dill-0.3.4-py2.py3-none-any.whl", hash = "sha256:7e40e4a70304fd9ceab3535d36e58791d9c4a776b38ec7f7ec9afc8d3dca4d4f"},
+    {file = "dill-0.3.4.zip", hash = "sha256:9f9734205146b2b353ab3fec9af0070237b6ddae78452af83d2fca84d739e675"},
+]
+flake8 = [
+    {file = "flake8-4.0.1-py2.py3-none-any.whl", hash = "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d"},
+    {file = "flake8-4.0.1.tar.gz", hash = "sha256:806e034dda44114815e23c16ef92f95c91e4c71100ff52813adf7132a6ad870d"},
+]
+mccabe = [
+    {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
+    {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
+]
+numpy = [
+    {file = "numpy-1.22.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:3d22662b4b10112c545c91a0741f2436f8ca979ab3d69d03d19322aa970f9695"},
+    {file = "numpy-1.22.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:11a1f3816ea82eed4178102c56281782690ab5993251fdfd75039aad4d20385f"},
+    {file = "numpy-1.22.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:5dc65644f75a4c2970f21394ad8bea1a844104f0fe01f278631be1c7eae27226"},
+    {file = "numpy-1.22.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:42c16cec1c8cf2728f1d539bd55aaa9d6bb48a7de2f41eb944697293ef65a559"},
+    {file = "numpy-1.22.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a97e82c39d9856fe7d4f9b86d8a1e66eff99cf3a8b7ba48202f659703d27c46f"},
+    {file = "numpy-1.22.0-cp310-cp310-win_amd64.whl", hash = "sha256:e41e8951749c4b5c9a2dc5fdbc1a4eec6ab2a140fdae9b460b0f557eed870f4d"},
+    {file = "numpy-1.22.0-cp38-cp38-macosx_10_9_universal2.whl", hash = "sha256:bece0a4a49e60e472a6d1f70ac6cdea00f9ab80ff01132f96bd970cdd8a9e5a9"},
+    {file = "numpy-1.22.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:818b9be7900e8dc23e013a92779135623476f44a0de58b40c32a15368c01d471"},
+    {file = "numpy-1.22.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:47ee7a839f5885bc0c63a74aabb91f6f40d7d7b639253768c4199b37aede7982"},
+    {file = "numpy-1.22.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a024181d7aef0004d76fb3bce2a4c9f2e67a609a9e2a6ff2571d30e9976aa383"},
+    {file = "numpy-1.22.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f71d57cc8645f14816ae249407d309be250ad8de93ef61d9709b45a0ddf4050c"},
+    {file = "numpy-1.22.0-cp38-cp38-win32.whl", hash = "sha256:283d9de87c0133ef98f93dfc09fad3fb382f2a15580de75c02b5bb36a5a159a5"},
+    {file = "numpy-1.22.0-cp38-cp38-win_amd64.whl", hash = "sha256:2762331de395739c91f1abb88041f94a080cb1143aeec791b3b223976228af3f"},
+    {file = "numpy-1.22.0-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:76ba7c40e80f9dc815c5e896330700fd6e20814e69da9c1267d65a4d051080f1"},
+    {file = "numpy-1.22.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:0cfe07133fd00b27edee5e6385e333e9eeb010607e8a46e1cd673f05f8596595"},
+    {file = "numpy-1.22.0-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:6ed0d073a9c54ac40c41a9c2d53fcc3d4d4ed607670b9e7b0de1ba13b4cbfe6f"},
+    {file = "numpy-1.22.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:41388e32e40b41dd56eb37fcaa7488b2b47b0adf77c66154d6b89622c110dfe9"},
+    {file = "numpy-1.22.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b55b953a1bdb465f4dc181758570d321db4ac23005f90ffd2b434cc6609a63dd"},
+    {file = "numpy-1.22.0-cp39-cp39-win32.whl", hash = "sha256:5a311ee4d983c487a0ab546708edbdd759393a3dc9cd30305170149fedd23c88"},
+    {file = "numpy-1.22.0-cp39-cp39-win_amd64.whl", hash = "sha256:a97a954a8c2f046d3817c2bce16e3c7e9a9c2afffaf0400f5c16df5172a67c9c"},
+    {file = "numpy-1.22.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bb02929b0d6bfab4c48a79bd805bd7419114606947ec8284476167415171f55b"},
+    {file = "numpy-1.22.0.zip", hash = "sha256:a955e4128ac36797aaffd49ab44ec74a71c11d6938df83b1285492d277db5397"},
+]
+pycodestyle = [
+    {file = "pycodestyle-2.8.0-py2.py3-none-any.whl", hash = "sha256:720f8b39dde8b293825e7ff02c475f3077124006db4f440dcbc9a20b76548a20"},
+    {file = "pycodestyle-2.8.0.tar.gz", hash = "sha256:eddd5847ef438ea1c7870ca7eb78a9d47ce0cdb4851a5523949f2601d0cbbe7f"},
+]
+pyflakes = [
+    {file = "pyflakes-2.4.0-py2.py3-none-any.whl", hash = "sha256:3bb3a3f256f4b7968c9c788781e4ff07dce46bdf12339dcda61053375426ee2e"},
+    {file = "pyflakes-2.4.0.tar.gz", hash = "sha256:05a85c2872edf37a4ed30b0cce2f6093e1d0581f8c19d7393122da7e25b2b24c"},
+]
+pywavefront = [
+    {file = "PyWavefront-1.3.3-py3-none-any.whl", hash = "sha256:ec79cadd046b168434b01031e574f4105f821d06cb8cf754801e4dc18076bbeb"},
+]
+sourceinspect = [
+    {file = "sourceinspect-0.0.4-py3-none-any.whl", hash = "sha256:a33fabe25dfced4ed949ceb3312824579456a1faa0ae85b6a78887775c4bb4b9"},
+]
+taichi = [
+    {file = "taichi-0.8.8-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:fd86975d7c3d5912425b6f3be616c606f29bf16d58764189f5f72698977f9c3c"},
+    {file = "taichi-0.8.8-cp36-cp36m-macosx_10_15_x86_64.whl", hash = "sha256:55c8497d82a9746abd390d02338fe8974f226e1528633177760001a5c6c7344f"},
+    {file = "taichi-0.8.8-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:6a375613aa2dec0f0b3ee35a3e4a23741a7d0f6da5cea1818fdbcdf567d1eb2d"},
+    {file = "taichi-0.8.8-cp36-cp36m-win_amd64.whl", hash = "sha256:f9d5a80aeaee0773f0e54fdc50fece96a2a5d5d66fcc8ab651e51e4ca9d45ed9"},
+    {file = "taichi-0.8.8-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:aa9bf62a317addeb385dc908a9eb3955ee20f117e02750c4119384ffd278a366"},
+    {file = "taichi-0.8.8-cp37-cp37m-macosx_10_15_x86_64.whl", hash = "sha256:009135ddf72f33a2971cfc49a4181f14e5a6cfb2aa369441d65d94f321d8df2f"},
+    {file = "taichi-0.8.8-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:89f8e90b29f5afc85aaa910b523ead8b05a15259b74701092589e7ec2ada0677"},
+    {file = "taichi-0.8.8-cp37-cp37m-win_amd64.whl", hash = "sha256:4d8671027c5808490d80fb97e72c47e9446b371fe78f1e12f1fd1efdc46fba28"},
+    {file = "taichi-0.8.8-cp38-cp38-macosx_10_14_x86_64.whl", hash = "sha256:8b4853fe474b33cab856265eb5f1f6cc50bdf3fdb936a3854fb3b675b8b4e8ab"},
+    {file = "taichi-0.8.8-cp38-cp38-macosx_10_15_x86_64.whl", hash = "sha256:ae22fa127eb1be7305c5002de6eb4370e56c60ebea7f61ef15dfd6be0f0c6a2b"},
+    {file = "taichi-0.8.8-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:9bb34b4b1c4c484c1416f23918a68e7b4721de7d0b19d70ab9fe377810184c38"},
+    {file = "taichi-0.8.8-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:19b7df59dd3113144d640851619fb4f2c84c50f9016fe0beb544a0c6e825f885"},
+    {file = "taichi-0.8.8-cp38-cp38-win_amd64.whl", hash = "sha256:8d39e61246a259565bf215e8dda8ab5ebdb0e354d35fc442b136ed49c6e735f0"},
+    {file = "taichi-0.8.8-cp39-cp39-macosx_10_14_x86_64.whl", hash = "sha256:37b226bacd0ff3d2e4ba68c8a51f64b3403cae560fdf7eda9799cc983acf07dd"},
+    {file = "taichi-0.8.8-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:a716291376bf1efdbda8a4f6ee583b7d430a2a1592accb64abda614eaea3f32a"},
+    {file = "taichi-0.8.8-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:b1bce204fa61f93a8b1944dbd8609b147acfbf44a1ce012499ac55b833a553a1"},
+    {file = "taichi-0.8.8-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:72d10b1e534ac6f853517773526e26fe7b7baeb2e68dc1e6a26a3fe27784957d"},
+    {file = "taichi-0.8.8-cp39-cp39-win_amd64.whl", hash = "sha256:919f839c65aa7da5650c798e8e8f0f7fb526a672eb6f10e43926d8cecd95cb30"},
+]
+toml = [
+    {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
+    {file = "toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"},
+]
